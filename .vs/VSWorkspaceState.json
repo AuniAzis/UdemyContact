@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Contact.Maui",
+    "\\Contact.Maui\\Properties",
+    "\\Contact.Maui\\Resources"
   ],
-  "SelectedNode": "\\C:\\Users\\Auni\\Source\\Repos\\UdemyContact",
+  "SelectedNode": "\\Contact.Maui",
   "PreviewInSolutionExplorer": false
 }
