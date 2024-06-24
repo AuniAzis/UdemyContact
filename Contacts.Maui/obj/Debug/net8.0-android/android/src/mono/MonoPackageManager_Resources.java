@@ -138,6 +138,9 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
+		"Contacts.CoreBusiness.dll",
+		"Contacts.Plugins.DataStore.InMemory.dll",
+		"Contacts.UseCases.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{

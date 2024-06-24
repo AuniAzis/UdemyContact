@@ -1,1 +1,0 @@
-C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\Contacts.Maui.csproj;x64

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contacts.Plugins.DataStore.InMemory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ce6171221b56aff4320bbd6b56979e703220b24")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contacts.Plugins.DataStore.InMemory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contacts.Plugins.DataStore.InMemory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

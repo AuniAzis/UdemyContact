@@ -20,6 +20,10 @@ namespace Contacts.Plugins.DataStore.InMemory
 
         public Task<List<Contact>> GetContactAsync(string filterText)
         {
+            if(string.IsNullOrWhiteSpace(filterText))
+            {
+                return Task.FromResult(_contacts);
+            }
             var contacts = _contacts.Where(x => !string.IsNullOrWhiteSpace(x.Name) && x.Name.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
 
             if (contacts == null || contacts.Count <= 0)
@@ -38,6 +42,24 @@ namespace Contacts.Plugins.DataStore.InMemory
                 return Task.FromResult(contacts);
 
             return Task.FromResult(contacts);
+        }
+
+        public Task<Contact> GetContactByIdAsync(int contactId)
+        {
+            var contact = _contacts.FirstOrDefault(x => x.ContactId == contactId);
+            if (contact != null)
+            {
+                return Task.FromResult(new Contact
+                {
+                    ContactId = contactId,
+                    Address = contact.Address,
+                    Email = contact.Email,
+                    Name = contact.Name,
+                    Phone = contact.Phone
+                });
+            }
+
+            return null;
         }
     }
 }
