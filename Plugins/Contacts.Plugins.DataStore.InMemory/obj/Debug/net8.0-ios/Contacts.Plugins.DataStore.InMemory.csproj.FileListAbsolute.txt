@@ -1,3 +1,9 @@
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.dll
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.pdb
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.CoreBusiness.dll
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.UseCases.dll
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.CoreBusiness.pdb
+C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.UseCases.pdb
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
@@ -12,12 +18,6 @@ C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMem
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.AssemblyInfo.cs
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.csproj.CoreCompileInputs.cache
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.sourcelink.json
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.dll
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.pdb
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.CoreBusiness.dll
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.UseCases.dll
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.CoreBusiness.pdb
-C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\bin\Debug\net8.0-ios\Contacts.UseCases.pdb
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.csproj.CopyComplete
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\Contacts.Plugins.DataStore.InMemory.dll
 C:\Users\Auni\source\repos\UdemyContact\Plugins\Contacts.Plugins.DataStore.InMemory\obj\Debug\net8.0-ios\refint\Contacts.Plugins.DataStore.InMemory.dll

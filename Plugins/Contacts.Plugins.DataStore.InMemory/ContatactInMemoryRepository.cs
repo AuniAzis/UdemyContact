@@ -18,6 +18,26 @@ namespace Contacts.Plugins.DataStore.InMemory
         };
         }
 
+        public Task AddContactAsync(Contact contact)
+        {
+            var maxId = _contacts.Max(x => x.ContactId);
+            contact.ContactId = maxId + 1;
+            _contacts.Add(contact);
+
+            return Task.CompletedTask;
+        }
+
+        public Task DeleteContactAsync(int contactId)
+        {
+            var contact = _contacts.FirstOrDefault(x => x.ContactId == contactId);
+            if (contact != null)
+            {
+                _contacts.Remove(contact);
+            }
+
+            return Task.CompletedTask;
+        }
+
         public Task<List<Contact>> GetContactAsync(string filterText)
         {
             if(string.IsNullOrWhiteSpace(filterText))
@@ -60,6 +80,23 @@ namespace Contacts.Plugins.DataStore.InMemory
             }
 
             return null;
+        }
+
+        public Task UpdateContactAsync(int contactId, Contact contact)
+        {
+            if (contactId != contact.ContactId) return Task.CompletedTask;
+
+            var contactToUpdate = _contacts.FirstOrDefault(x => x.ContactId == contactId);
+            if (contactToUpdate != null)
+            {
+                //AutoMapper
+                contactToUpdate.Address = contact.Address;
+                contactToUpdate.Email = contact.Email;
+                contactToUpdate.Phone = contact.Phone;
+                contactToUpdate.Name = contact.Name;
+            }
+
+            return Task.CompletedTask;
         }
     }
 }

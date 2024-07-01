@@ -1,3 +1,7 @@
+C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.UseCases.dll
+C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.UseCases.pdb
+C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.CoreBusiness.dll
+C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.CoreBusiness.pdb
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\actool\_PartialAppManifest.items
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
@@ -12,10 +16,6 @@ C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-macca
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\Contacts.UseCases.AssemblyInfo.cs
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\Contacts.UseCases.csproj.CoreCompileInputs.cache
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\Contacts.UseCases.sourcelink.json
-C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.UseCases.dll
-C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.UseCases.pdb
-C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.CoreBusiness.dll
-C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\bin\Debug\net8.0-maccatalyst\Contacts.CoreBusiness.pdb
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\Contacts.UseCases.csproj.CopyComplete
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\Contacts.UseCases.dll
 C:\Users\Auni\source\repos\UdemyContact\Contacts.UseCases\obj\Debug\net8.0-maccatalyst\refint\Contacts.UseCases.dll

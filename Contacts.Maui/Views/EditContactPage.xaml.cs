@@ -9,11 +9,13 @@ public partial class EditContactPage : ContentPage
 {
 	private CoreBusiness.Contact contact;
     private readonly IViewContactUseCase viewContactUseCase;
+    private readonly IEditContactUseCase editContactUseCase;
 
-    public EditContactPage(IViewContactUseCase viewContactUseCase)
+    public EditContactPage(IViewContactUseCase viewContactUseCase, IEditContactUseCase editContactUseCase)
 	{
 		InitializeComponent();
         this.viewContactUseCase = viewContactUseCase;
+        this.editContactUseCase = editContactUseCase;
     }
 
     private void btnCancel_Clicked(object sender, EventArgs e)
@@ -41,7 +43,7 @@ public partial class EditContactPage : ContentPage
         }
 	}
 
-    private void btnUpdate_Clicked(object sender, EventArgs e)
+    private async void btnUpdate_Clicked(object sender, EventArgs e)
     {
         //if(nameValidator.IsNotValid)
         //{ 
@@ -64,7 +66,8 @@ public partial class EditContactPage : ContentPage
         contact.Address = contactCtrl.Address;
 
         //ContactRepository.UpdateContact(contact.ContactId, contact);
-        Shell.Current.GoToAsync("..");
+        await editContactUseCase.ExecuteAsync(contact.ContactId, contact);
+        await Shell.Current.GoToAsync("..");
 
     }
 
