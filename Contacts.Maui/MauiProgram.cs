@@ -5,6 +5,8 @@ using Contacts.Plugins.DataStore.InMemory;
 using Contacts.UseCases.Interfaces;
 using Contacts.UseCases;
 using Contacts.Maui.Views;
+using Contacts.Maui.ViewModels;
+using Contacts.Maui.Views_MVVM;
 
 namespace Contacts.Maui
 {
@@ -34,9 +36,13 @@ namespace Contacts.Maui
             builder.Services.AddTransient<IAddContactUseCase, AddContactUseCase>();
             builder.Services.AddTransient<IDeleteContactUseCase, DeleteContactUseCase>();
 
+            builder.Services.AddSingleton<ContactsViewModel>();
+
             builder.Services.AddSingleton<ContactPage>();
             builder.Services.AddSingleton<EditContactPage>();
             builder.Services.AddSingleton<AddContactPage>();
+
+            builder.Services.AddSingleton<Contacts_MVVM_Page>();
 
             return builder.Build();
         }

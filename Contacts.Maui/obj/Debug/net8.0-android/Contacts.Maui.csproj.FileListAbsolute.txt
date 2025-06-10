@@ -1060,3 +1060,5 @@ C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\s
 C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\Auni\source\repos\UdemyContact\Contacts.Maui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb

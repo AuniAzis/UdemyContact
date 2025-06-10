@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "02cuYlT9PLAU4WK/PGGa3j8oFco/9kERiSigvXDDry1UqjxQwUCWvJgHwGE9vb2uMpivIrgZvzHuB/k6NsjdhQ==",
+  "dgSpecHash": "cYA7r8LsPehu2WSnh+AzcJBdV+vlAi/cNWI3qT6J+dMyY7KLZ5EdTTukz/z0hP0oda1Zui81dUFxdB1nZSti4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Auni\\source\\repos\\UdemyContact\\Contacts.UseCases\\Contacts.UseCases.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Auni\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

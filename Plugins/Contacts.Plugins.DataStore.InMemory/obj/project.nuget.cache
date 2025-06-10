@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pvfG8y+kRLTIIWecG83J1z++XWccFSR3PX+DjCxCq3CCtttL2pkPMkTSYOq/4SLbvO1PoSW18Olb4nzUXFoq5A==",
+  "dgSpecHash": "Da3fi9niaw0MwJRI7L0fZefWp7w+5I9DYk/xhBQjAcrfcZ741Gpb9+rrWPayhPffmJuf6bWliVI/OweMbq4TyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Auni\\source\\repos\\UdemyContact\\Plugins\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Auni\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
