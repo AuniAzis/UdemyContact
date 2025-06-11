@@ -28,6 +28,9 @@
     <MauiXaml Update="Views_MVVM\Contacts_MVVM_Page.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views_MVVM\EditContactPage_MVVM.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">

@@ -77,3 +77,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts.Maui.Views_MVVM.Contacts_MVVM_Page.xaml
 build_metadata.AdditionalFiles.TargetPath = Views_MVVM\Contacts_MVVM_Page.xaml
 build_metadata.AdditionalFiles.RelativePath = Views_MVVM\Contacts_MVVM_Page.xaml
+
+[C:/Users/Auni/source/repos/UdemyContact/Contacts.Maui/Views_MVVM/EditContactPage_MVVM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contacts.Maui.Views_MVVM.EditContactPage_MVVM.xaml
+build_metadata.AdditionalFiles.TargetPath = Views_MVVM\EditContactPage_MVVM.xaml
+build_metadata.AdditionalFiles.RelativePath = Views_MVVM\EditContactPage_MVVM.xaml

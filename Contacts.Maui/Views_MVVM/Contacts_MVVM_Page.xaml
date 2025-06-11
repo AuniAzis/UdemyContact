@@ -18,6 +18,7 @@
         </SearchBar>
 
         <CollectionView
+            x:Name="ContactsCollection"
             ItemsSource="{Binding Contacts}"
             Grid.Row="1"
             Grid.Column="0">
@@ -25,13 +26,34 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="m:Contact">
                     <StackLayout>
-                        <Frame Margin="0,5,0,5">
-                            <StackLayout Orientation="Vertical" Spacing="5">
-                                <Label Text="{Binding Name}"></Label>
-                                <Label Text="{Binding Email}"></Label>
-                                
-                            </StackLayout>
-                        </Frame>
+
+                        <SwipeView>
+
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Delete"
+                                               IsDestructive="True"
+                                               BackgroundColor="Red"
+                                               Command="{Binding Source={x:Reference ContactsCollection}, Path=BindingContext.DeleteContactCommand}"
+                                               CommandParameter="{Binding ContactId}">
+                                    </SwipeItem>
+                                    <SwipeItem Text="Edit"
+                                               IsDestructive="False"
+                                               BackgroundColor="Green"
+                                               Command="{Binding Source={x:Reference ContactsCollection}, Path=BindingContext.GotoEditContactCommand}"
+                                               CommandParameter="{Binding ContactId}">
+                                    </SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+
+                            <Frame Margin="0,5,0,5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="{Binding Name}"></Label>
+                                    <Label Text="{Binding Email}"></Label>
+                                </StackLayout>
+                            </Frame>
+                            
+                        </SwipeView>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

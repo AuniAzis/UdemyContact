@@ -7,7 +7,7 @@
              Title="TestPage1">
     <VerticalStackLayout Spacing="10" Margin="20, 20, 20, 0">
         
-        <Entry Placeholder="Name" Text="{Binding Contact.Name}">          
+        <!--<Entry Placeholder="Name" Text="{Binding Contact.Name}">          
         </Entry>
         <Entry Placeholder="Email" Text="{Binding Contact.Email}">          
         </Entry>
@@ -15,6 +15,6 @@
         </Entry>
         <Entry Placeholder="Address" Text="{Binding Contact.Address}">          
         </Entry>
-        <Button Text="Save" Command="{Binding SaveContactCommand}"></Button>
+        <Button Text="Save" Command="{Binding SaveContactCommand}"></Button>-->
     </VerticalStackLayout>
 </ContentPage>
