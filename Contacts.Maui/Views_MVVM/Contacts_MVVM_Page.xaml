@@ -63,9 +63,8 @@
         <Button 
             Grid.Row="2"
             Grid.Column="0" 
-            x:Name="btnAdd" 
-            Text="Add Contact" 
-           >
+            Text="Add Contact"
+            Command="{Binding GoToAddContactCommand}">
             
         </Button>
 

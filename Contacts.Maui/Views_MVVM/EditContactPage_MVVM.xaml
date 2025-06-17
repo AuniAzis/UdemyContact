@@ -6,6 +6,7 @@
              Title="Edit Contact">
 
     <controls:ContactControl_MVVM
+        IsForEdit="True"
         BindingContext="{Binding .}">
     </controls:ContactControl_MVVM>
     
