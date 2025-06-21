@@ -14,7 +14,8 @@
                         <toolkit:TextValidationBehavior
                     x:Name="nameValidator"
                     Flags="ValidateOnAttaching,ValidateOnValueChanged"
-                    MinimumLength="1"/>
+                    MinimumLength="1"
+                            IsValid="{Binding IsNameProvided}"/>
                     </Entry.Behaviors>
                 </Entry>
             </HorizontalStackLayout>
@@ -23,7 +24,7 @@
         <Frame Padding="10,2,10,2">
             <HorizontalStackLayout>
                 <Label Text="Email" VerticalOptions="Center" WidthRequest="60"></Label>
-                <Entry VerticalOptions="Center" Text="{Binding Contact.Email}">
+                <!--<Entry VerticalOptions="Center" Text="{Binding Contact.Email}">
                     <Entry.Behaviors>
                         <toolkit:MultiValidationBehavior 
                     x:Name="emailValidator"
@@ -32,15 +33,38 @@
                         Flags="ValidateOnAttaching,ValidateOnValueChanged"
                         MinimumLength="1"
                         toolkit:MultiValidationBehavior.Error="Email is required."
+                                IsValid="{Binding IsEmailProvided}"
                         />
                             <toolkit:EmailValidationBehavior
                         Flags="ValidateOnAttaching,ValidateOnValueChanged"
                         toolkit:MultiValidationBehavior.Error="Email format is invalid"
+                                IsValid="{Binding IsEmailFormatValid}"
                         />
 
                         </toolkit:MultiValidationBehavior>
                     </Entry.Behaviors>
-                </Entry>
+                </Entry>-->
+
+                <Entry x:Name="EntryEmail" Text="{Binding Contact.Email}"
+                       
+                       VerticalOptions="Center"
+                      >
+                    <Entry.Behaviors>
+                        <toolkit:MultiValidationBehavior
+                            x:Name="EmailValidator"
+                            Flags="ValidateOnAttaching,ValidateOnValueChanged">
+                            <toolkit:TextValidationBehavior                        
+                                MinimumLength="1"
+                                toolkit:MultiValidationBehavior.Error="Email is required."
+                                BindingContext="{Binding Path=BindingContext, Source={x:Reference EntryEmail}}"
+                                IsValid="{Binding IsEmailProvided}"/>
+                            <toolkit:EmailValidationBehavior                              
+                                toolkit:MultiValidationBehavior.Error="Email format is invalid."
+                                BindingContext="{Binding Path=BindingContext, Source={x:Reference EntryEmail}}"
+                                IsValid="{Binding IsEmailFormatValid}"/>
+                            </toolkit:MultiValidationBehavior>
+                        </Entry.Behaviors>
+                    </Entry>
             </HorizontalStackLayout>
         </Frame>
 

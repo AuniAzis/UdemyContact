@@ -5,13 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts.Maui", "Contacts.Maui.csproj", "{736D53C5-CB14-473F-92A6-F9FECBC0871C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.CoreBusiness", "..\Contacts.CoreBusiness\Contacts.CoreBusiness.csproj", "{AE3CA2F0-599E-4FA9-B5FF-69F3151F0891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts.CoreBusiness", "..\Contacts.CoreBusiness\Contacts.CoreBusiness.csproj", "{AE3CA2F0-599E-4FA9-B5FF-69F3151F0891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.UseCases", "..\Contacts.UseCases\Contacts.UseCases.csproj", "{736D99F0-37EF-4B30-9F31-A0AAF2174989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts.UseCases", "..\Contacts.UseCases\Contacts.UseCases.csproj", "{736D99F0-37EF-4B30-9F31-A0AAF2174989}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{AEC2ACBA-C15E-4FC1-BAD5-E881A0EC79F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Plugins.DataStore.InMemory", "..\Plugins\Contacts.Plugins.DataStore.InMemory\Contacts.Plugins.DataStore.InMemory.csproj", "{A8FB99A7-C6E4-4734-8862-BC6501F4C172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts.Plugins.DataStore.InMemory", "..\Plugins\Contacts.Plugins.DataStore.InMemory\Contacts.Plugins.DataStore.InMemory.csproj", "{A8FB99A7-C6E4-4734-8862-BC6501F4C172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Plugins.DataStore.SQLLite", "..\Plugins\Contacts.Plugins.DataStore.SQLLite\Contacts.Plugins.DataStore.SQLLite.csproj", "{95709CF4-744B-402D-A103-AE53D829233E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,12 +39,17 @@ Global
 		{A8FB99A7-C6E4-4734-8862-BC6501F4C172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FB99A7-C6E4-4734-8862-BC6501F4C172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FB99A7-C6E4-4734-8862-BC6501F4C172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95709CF4-744B-402D-A103-AE53D829233E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95709CF4-744B-402D-A103-AE53D829233E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95709CF4-744B-402D-A103-AE53D829233E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95709CF4-744B-402D-A103-AE53D829233E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A8FB99A7-C6E4-4734-8862-BC6501F4C172} = {AEC2ACBA-C15E-4FC1-BAD5-E881A0EC79F8}
+		{95709CF4-744B-402D-A103-AE53D829233E} = {AEC2ACBA-C15E-4FC1-BAD5-E881A0EC79F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A5920D5-C8DD-4B1B-8C98-CE96B5DE6FE7}
