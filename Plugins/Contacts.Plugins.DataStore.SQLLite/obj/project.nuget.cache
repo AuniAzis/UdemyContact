@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FftJ4YnSgKw1UrKqkamdv7P1mAnaVZMwmw10K5Rg6kFEOhukyzs2PJcwzLvtfFw0XHs8W0rvFYzR8PMzSs4rQg==",
+  "dgSpecHash": "RalcwOfebKtj0umdie0wbShmITQe0AEyN8Gu1pi8jbhRJBXPObvinR6JJs6PqGBuxiMN12gZBhexxlONB2eeZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Auni\\source\\repos\\UdemyContact\\Plugins\\Contacts.Plugins.DataStore.SQLLite\\Contacts.Plugins.DataStore.SQLLite.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Auni\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Auni\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
